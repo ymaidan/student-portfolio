@@ -1,0 +1,13 @@
+{
+  "name": "salma-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Salma Yaser Maidan",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["portfolio", "student", "art", "gallery"],
+  "author": "Salma Yaser Maidan",
+  "license": "MIT"
+}

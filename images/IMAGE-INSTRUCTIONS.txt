@@ -1,0 +1,31 @@
+📸 IMAGE SETUP INSTRUCTIONS
+================================
+
+Please add your images to this folder with the following exact names:
+
+PROFILE PHOTOS:
+---------------
+1. profile1.jpg     - Main profile photo (outdoor photo with traditional dress)
+2. profile2.jpg     - Second profile photo (indoor portrait in black hijab)
+
+SKETCH DRAWINGS:
+---------------
+3. sketch1.jpg      - Eye drawing sketch
+4. sketch2.jpg      - Old man portrait sketch  
+5. sketch3.jpg      - Side profile sketch
+6. sketch4.jpg      - Multiple sketch drawings
+
+PAINTINGS:
+----------
+7. horse-painting.jpg      - White horse with Qatar flag painting
+8. cultural-painting.jpg   - Cultural scene with Arabic calligraphy painting
+9. whale-painting.jpg      - Circular painting with whale and candles
+
+IMPORTANT NOTES:
+----------------
+- Use JPG or JPEG format
+- Keep file sizes reasonable (under 2MB each if possible)
+- Make sure filenames match EXACTLY as listed above
+- Images should be good quality but optimized for web
+
+After adding all images, you're ready to deploy!
