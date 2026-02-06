@@ -8,18 +8,75 @@ PROFILE PHOTOS:
 1. profile1.jpg     - Main profile photo (outdoor photo with traditional dress)
 2. profile2.jpg     - Second profile photo (indoor portrait in black hijab)
 
-SKETCH DRAWINGS:
----------------
-3. sketch1.jpg      - Eye drawing sketch
-4. sketch2.jpg      - Old man portrait sketch  
-5. sketch3.jpg      - Side profile sketch
-6. sketch4.jpg      - Multiple sketch drawings
+ARTS CATEGORY (Already in HTML):
+---------------------------------
+3. sketch1.jpg              - Eye drawing sketch
+4. sketch2.jpg              - Old man portrait sketch  
+5. sketch3.jpg              - Side profile sketch
+6. sketch4.jpg              - Multiple sketch drawings
+7. horse-painting.jpg       - White horse with Qatar flag painting
+8. cultural-painting.jpg    - Cultural scene with Arabic calligraphy painting
+9. whale-painting.jpg       - Circular painting with whale and candles
 
-PAINTINGS:
-----------
-7. horse-painting.jpg      - White horse with Qatar flag painting
-8. cultural-painting.jpg   - Cultural scene with Arabic calligraphy painting
-9. whale-painting.jpg      - Circular painting with whale and candles
+PROJECTS CATEGORY (Business Work):
+-----------------------------------
+LITTLE SWEET BH (3 photos - slideshow):
+10. sweet1.jpg - Little Sweet BH product 1
+11. littlesweet2.jpg - Little Sweet BH product 2
+12. littlesweet3.jpg - Little Sweet BH product 3
+
+SWEET CREATIONS (3 photos - slideshow):
+13. sweet1.jpg       - Sweet creation photo 1
+14. sweet2.jpg       - Sweet creation photo 2
+15. sweet3.jpg       - Sweet creation photo 3
+
+N00_OVA ART WORKSHOP (4 single photos):
+16. project1.jpg    - Handcrafted cups
+17. project2.jpg    - Decorative plates
+18. project3.jpg    - Ring holders
+19. project4.jpg    - Handmade bags
+
+VOLUNTEER CATEGORY (Activities):
+---------------------------------
+NURSING HOME (3 photos - slideshow):
+20. nursing1.jpg    - Nursing home activities photo 1
+21. nursing2.jpg    - Nursing home activities photo 2
+22. nursing3.jpg    - Nursing home activities photo 3
+
+UoB MEDIA CLUB (2 photos - slideshow):
+23. uob1.jpg        - UoB Media Club visit photo 1
+24. uob2.jpg        - UoB Media Club visit photo 2
+
+ASIAN YOUTH GAMES (4 photos - slideshow):
+25. ayg1.jpg        - Asian Youth Games photo 1
+26. ayg2.jpg        - Asian Youth Games photo 2
+27. ayg3.jpg        - Asian Youth Games photo 3
+28. ayg4.jpg        - Asian Youth Games photo 4
+
+OTHER VOLUNTEER ACTIVITIES (1 single photo):
+29. volunteer1.jpg  - Children's Day event at Bahrain Fort
+
+TOTAL: 27 images needed
+
+FILTER CATEGORIES:
+------------------
+✨ All - Shows all images
+🎨 Arts - Shows artistic work (sketches and paintings)
+💼 Projects - Shows business projects (Little Sweet BH & N00_OVA)
+🤝 Volunteer - Shows volunteering activities
+
+SPECIAL SLIDESHOW FEATURES (5 Total):
+--------------------------------------
+VOLUNTEER SLIDESHOWS:
+📸 Nursing Home Activities - 3-photo slideshow
+📸 UoB Media Club Visit - 2-photo slideshow
+📸 Asian Youth Games - 4-photo slideshow
+
+BUSINESS SLIDESHOWS:
+📸 Little Sweet BH Products - 3-photo slideshow
+📸 Sweet Creations - 3-photo slideshow
+
+All slideshows support swipe/arrow navigation!
 
 IMPORTANT NOTES:
 ----------------
@@ -27,5 +84,6 @@ IMPORTANT NOTES:
 - Keep file sizes reasonable (under 2MB each if possible)
 - Make sure filenames match EXACTLY as listed above
 - Images should be good quality but optimized for web
+- The gallery now has a beautiful filter system!
 
 After adding all images, you're ready to deploy!

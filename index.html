@@ -226,57 +226,148 @@
     <section id="gallery" class="gallery">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Art Gallery</h2>
+                <h2 class="section-title">Gallery</h2>
                 <div class="title-underline"></div>
-                <p class="section-subtitle">A collection of my drawings and paintings</p>
+                <p class="section-subtitle">Explore my creative journey</p>
             </div>
+            
+            <!-- Filter Buttons -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">✨ All</button>
+                <button class="filter-btn" data-filter="arts">🎨 Arts</button>
+                <button class="filter-btn" data-filter="projects">💼 Projects</button>
+                <button class="filter-btn" data-filter="volunteer">🤝 Volunteer</button>
+            </div>
+            
             <div class="gallery-grid">
-                <div class="gallery-item">
+                <!-- ARTS - Existing artwork images -->
+                <div class="gallery-item" data-category="arts">
                     <img src="images/profile2.jpg" alt="Portrait" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Portrait Photography</p>
                     </div>
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" data-category="arts">
                     <img src="images/sketch1.jpg" alt="Eye Sketch" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Pencil Drawing</p>
                     </div>
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" data-category="arts">
                     <img src="images/sketch2.jpg" alt="Portrait Sketch" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Character Study</p>
                     </div>
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" data-category="arts">
                     <img src="images/sketch3.jpg" alt="Profile Sketch" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Profile Drawing</p>
                     </div>
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" data-category="arts">
                     <img src="images/sketch4.jpg" alt="Sketches" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Sketch Collection</p>
                     </div>
                 </div>
-                <div class="gallery-item large">
+                <div class="gallery-item large" data-category="arts">
                     <img src="images/horse-painting.jpg" alt="Horse Painting" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Qatari Horse - Acrylic on Canvas</p>
                     </div>
                 </div>
-                <div class="gallery-item large">
+                <div class="gallery-item large" data-category="arts">
                     <img src="images/cultural-painting.jpg" alt="Cultural Painting" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Cultural Heritage - Mixed Media</p>
                     </div>
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" data-category="arts">
                     <img src="images/whale-painting.jpg" alt="Whale Painting" class="gallery-img">
                     <div class="gallery-overlay">
                         <p>Whale & Candles - Circular Canvas</p>
+                    </div>
+                </div>
+                
+                <!-- PROJECTS - Business project images -->
+                <!-- Little Sweet BH Products - 3 images (click to view slideshow) -->
+                <div class="gallery-item" data-category="projects" data-gallery="littlesweet" data-index="0">
+                    <img src="images/littlesweet1.jpg" alt="Little Sweet BH 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Little Sweet BH - Products</p>
+                        <span class="photo-count">📷 3 photos</span>
+                    </div>
+                </div>
+                
+                <!-- Sweet Creations - 3 images (click to view slideshow) -->
+                <div class="gallery-item" data-category="projects" data-gallery="sweetcreations" data-index="0">
+                    <img src="images/sweet1.jpg" alt="Sweet Creations 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Sweet Creations</p>
+                        <span class="photo-count">📷 3 photos</span>
+                    </div>
+                </div>
+                
+                <!-- N00_OVA Art Workshop Products -->
+                <div class="gallery-item" data-category="projects">
+                    <img src="images/project1.jpg" alt="Handcrafted Cups" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Handcrafted Cups</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="projects">
+                    <img src="images/project2.jpg" alt="Decorative Plates" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Decorative Plates</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="projects">
+                    <img src="images/project3.jpg" alt="Ring Holders" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Ring Holders</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="projects">
+                    <img src="images/project4.jpg" alt="Handmade Bags" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Handmade Bags</p>
+                    </div>
+                </div>
+                
+                <!-- VOLUNTEER - Volunteering activity images (add your images here) -->
+                <!-- Nursing Home - 3 images (click to view slideshow) -->
+                <div class="gallery-item" data-category="volunteer" data-gallery="nursing" data-index="0">
+                    <img src="images/nursing1.jpg" alt="Nursing Home 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Nursing Home Activities</p>
+                        <span class="photo-count">📷 3 photos</span>
+                    </div>
+                </div>
+                
+                <!-- Children's Day Event -->
+                <div class="gallery-item" data-category="volunteer">
+                    <img src="images/volunteer1.jpg" alt="Children's Day" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Children's Day Event</p>
+                    </div>
+                </div>
+                
+                <!-- UoB Media Club Visit - 2 images (click to view slideshow) -->
+                <div class="gallery-item" data-category="volunteer" data-gallery="uob" data-index="0">
+                    <img src="images/uob1.jpg" alt="UoB Media Club 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>UoB Media Club Visit</p>
+                        <span class="photo-count">📷 2 photos</span>
+                    </div>
+                </div>
+                
+                <!-- Asian Youth Games - 4 images (click to view slideshow) -->
+                <div class="gallery-item" data-category="volunteer" data-gallery="ayg" data-index="0">
+                    <img src="images/ayg1.jpg" alt="Asian Youth Games 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <p>Asian Youth Games</p>
+                        <span class="photo-count">📷 4 photos</span>
                     </div>
                 </div>
             </div>
@@ -323,6 +414,18 @@
             </div>
         </div>
     </footer>
+
+    <!-- Lightbox Modal for Image Slideshow -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <button class="lightbox-prev">&#10094;</button>
+            <img src="" alt="" id="lightbox-img">
+            <button class="lightbox-next">&#10095;</button>
+        </div>
+        <div class="lightbox-caption"></div>
+        <div class="lightbox-counter"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>

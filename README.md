@@ -1,15 +1,18 @@
-# Salma Yaser Maidan - Portfolio Website
+# 🌸 Salma Yaser Maidan - Portfolio Website
 
-A beautiful, responsive portfolio website showcasing education, volunteering activities, business ventures, and art gallery.
+A beautiful, modern portfolio website with interactive slideshows showcasing education, volunteering activities, business ventures, and art gallery.
 
-## 🌸 Features
+**Live Demo:** (Add your Vercel URL here after deployment)
 
+## ✨ Features
+
+- **Interactive Gallery Filters**: All, Arts, Projects, Volunteer
+- **5 Slideshow Galleries**: Full-screen lightbox with swipe navigation
 - **Responsive Design**: Works perfectly on all devices
-- **Modern UI**: Beautiful gradient colors with a girly, feminine aesthetic
+- **Modern UI**: Beautiful pink/purple gradients with feminine aesthetic
 - **Smooth Animations**: Engaging scroll animations and transitions
-- **Art Gallery**: Showcase artwork and paintings
-- **Business Section**: Highlight entrepreneurial ventures
-- **Contact Section**: Easy ways to get in touch
+- **28 Images**: Comprehensive showcase of your talents
+- **Mobile Optimized**: Swipe gestures on touch devices
 
 ## 📁 Project Structure
 
@@ -35,17 +38,26 @@ student-portfolio/
 
 ## 🖼️ Adding Your Images
 
-Before deploying, add your images to the `images/` folder with these exact names:
+You need **28 images total**. Check `FINAL-IMAGE-LIST.md` for the complete guide.
 
-1. **profile1.jpg** - Your main profile photo (the one in hijab outdoors)
-2. **profile2.jpg** - Your second profile photo (indoor portrait)
-3. **sketch1.jpg** - Eye drawing sketch
-4. **sketch2.jpg** - Old man portrait sketch
-5. **sketch3.jpg** - Side profile sketch
-6. **sketch4.jpg** - Multiple sketch drawings
-7. **horse-painting.jpg** - White horse with Qatar flag painting
-8. **cultural-painting.jpg** - Cultural scene with Arabic text painting
-9. **whale-painting.jpg** - Circular painting with whale and candles
+### Quick Summary:
+
+**Profile (2):** `profile1.jpg`, `profile2.jpg`
+
+**Arts (8):** Sketches and paintings you already have
+
+**Projects (10):**
+- Little Sweet BH slideshow (3): `littlesweet1-3.jpg`
+- Sweet Creations slideshow (3): `sweet1-3.jpg`
+- N00_OVA products (4): `project1-4.jpg`
+
+**Volunteer (11):**
+- Nursing Home slideshow (3): `nursing1-3.jpg`
+- UoB Media Club slideshow (2): `uob1-2.jpg`
+- Asian Youth Games slideshow (4): `ayg1-4.jpg`
+- Other activities (2): `volunteer1-2.jpg`
+
+See `images/IMAGE-INSTRUCTIONS.txt` for detailed list.
 
 ## 🚀 Deployment to Vercel
 
@@ -80,6 +92,12 @@ Before deploying, add your images to the `images/` folder with these exact names
 5. Click "Deploy"
 
 Your website will be live at: `https://your-project-name.vercel.app`
+
+### Updating Your Portfolio:
+Whenever you make changes, just run:
+```bash
+vercel --prod
+```
 
 ## 🎨 Customization
 
